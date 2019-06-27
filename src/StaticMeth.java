@@ -1,5 +1,6 @@
 /* 
-A simple program to demonstrate the usage of the stati key word 
+A simple program to demonstrate the usage of the static key word
+applying it to a static methodgit
 */
 
 class StaticMeth {
