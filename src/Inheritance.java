@@ -1,7 +1,11 @@
 
+/*A simple java program to demonstrate the concept of inheritance
+between a parent and sub class.
+* */
 class Parent {
     int x;
     int y;
+
     void showvalues() {
         System.out.println("The values of x and y are :" + x + " " + y);
     }
