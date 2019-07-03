@@ -39,18 +39,17 @@ class Volume extends Box1 {
 
         // Super is used to refer to the default constructor of the super class
         //thus enabling access to its private member variables
+        // super must always be the firs statement called in a subclass constructor
         super(width, height, depth);
-        kilo = weight;
+        weight = kilo;
     }
+
     public static void main(String args[]) {
-        double weight;
-    Volume box = new Volume(10.0,23,56,23);
 
-          System.out.println("The volume of the Box is :" + "" + box.getvolume());
-          System.out.println("The box weighs:" + "" + box.weight);
+    Volume box = new Volume(10.0,23,56,23.0);
 
-
-
+          System.out.println("The volume of the Box is :" + "  " + box.getvolume() + " " + "cubic centimetres");
+          System.out.println("The box weighs:" + " " + box.weight + "kg");
 
 
     }
