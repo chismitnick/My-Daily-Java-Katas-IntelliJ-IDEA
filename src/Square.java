@@ -11,11 +11,8 @@ class Square {
     }
 }
 
-
 class TestSquare extends Square {
-
     double side1, side2;
-
     public TestSquare(double s1, double s2) {
         super.side1 = s1;
         s1 = side2;
