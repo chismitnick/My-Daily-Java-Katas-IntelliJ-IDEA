@@ -9,9 +9,9 @@ A simple Java program to calculate the volume of a Box, by passing values its in
 */
 
 class Box1 {
-    private  double width;
+    private double width;
     private double height;
-    private  double depth;
+    private double depth;
 
     public Box1(double width, double height, double depth) {
         this.width = width;
@@ -19,9 +19,9 @@ class Box1 {
         this.depth = depth;
     }
 
-     double getvolume(){
+    double getvolume() {
 
-        return  width*height*depth;
+        return width * height * depth;
     }
 }
 
@@ -34,22 +34,22 @@ class Volume extends Box1 {
     double weight;
 
     //Create a constructor of the volume class
-    // include the
-    public Volume(double width, double height, double depth, double kilo) {
+    // include the newly added field
 
+    public Volume(double width, double height, double depth, double kilo) {
         // Super is used to refer to the default constructor of the super class
         //thus enabling access to its private member variables
-        // super must always be the firs statement called in a subclass constructor
+        // ***super must always be the first statement called in a subclass constructor
         super(width, height, depth);
         weight = kilo;
     }
 
     public static void main(String args[]) {
 
-    Volume box = new Volume(10.0,23,56,23.0);
+        Volume box = new Volume(10.0, 23, 56, 23.0);
 
-          System.out.println("The volume of the Box is :" + "  " + box.getvolume() + " " + "cubic centimetres");
-          System.out.println("The box weighs:" + " " + box.weight + "kg");
+        System.out.println("The volume of the Box is :" + "  " + box.getvolume() + " " + "cubic centimetres");
+        System.out.println("The box weighs:" + " " + box.weight + "kg");
 
 
     }
