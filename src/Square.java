@@ -14,8 +14,11 @@ class Square {
 class TestSquare extends Square {
     double side1, side2;
     public TestSquare(double s1, double s2) {
+        // refers to the value of side 1 in the super class
         super.side1 = s1;
-        s1 = side2;
+
+        //side2 in the subclass
+        side2 = s2;
     }
 
     void showS2(){
