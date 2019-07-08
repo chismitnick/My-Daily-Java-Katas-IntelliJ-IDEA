@@ -5,7 +5,7 @@ class StaticMethod {
     static int j = 13;
     static int k = 55;
 
-    static void printVlaues() {
+    static void printValues() {
         System.out.print("The value of j is:" + " " + j);
     }
 }
@@ -14,7 +14,7 @@ class StaticMethod {
 the same way by use of the dot operator on the name of the class */
 class StaticMeth2 {
     public static void main(String[] args) {
-        StaticMethod.printVlaues();
+        StaticMethod.printValues();
         System.out.println("The value of k is :" + " " + StaticMethod.k);
     }
 }
