@@ -16,24 +16,25 @@ abstract class Polygon {
     abstract double area();
 }
 
-class Rectangle extends Polygon{
+class Rectangle extends Polygon {
 
     //Constructor to initialize variables
-    Rectangle(double a,double b){
-        super(a,b);
+    Rectangle(double a, double b) {
+        super(a, b);
     }
+
     //Implementation of abstract method from super class
-    // a subclass is forced to use this method
+    // all subclasses of polygon must override this method
     double area() {
 
-        return  side1 * side2;
+        return side1 * side2;
     }
 }
 
-class  Triangle extends Polygon  {
+class Triangle extends Polygon {
 
     //Constructor to initialize variables
-  Triangle(double a, double b) {
+    Triangle(double a, double b) {
         super(a, b);
     }
 
@@ -47,8 +48,11 @@ public class Abstract {
 
     public static void main(String[] args) {
 
-        Rectangle r = new Rectangle(10,20);
-        Triangle t = new Triangle(15,23);
+        Rectangle r = new Rectangle(10, 20);
+        Triangle t = new Triangle(15, 23);
+
+        // This is just a reference variable not an object
+        //Java does not allow the instantiation of objects using the new key word
         Polygon polygon;
 
         polygon = r;

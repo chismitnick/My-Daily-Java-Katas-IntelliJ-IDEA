@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SwingGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="112" y="47" width="564" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-6310670"/>
+    </properties>
+    <border type="bevel-lowered" title="Area Calculator" title-justification="2">
+      <font name="DejaVu Sans Mono" size="14" style="0"/>
+    </border>
+    <children>
+      <component id="fe8cc" class="javax.swing.JLabel" binding="selectLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Select the shape whose area you wish to calculate"/>
+        </properties>
+      </component>
+      <component id="9e56a" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
