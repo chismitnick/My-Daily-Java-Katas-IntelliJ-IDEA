@@ -13,6 +13,11 @@ class Exception {
 
             a = 0;
             b = 42 / a;
+
+            // This print statement will not be printed Once
+            //an exception is thrown, program control transfers out of the try block into the
+            //catch block
+            System.out.println("This Statement will not be printed");
         }
 
         //include a catch clause that specifies the exception type that you wish to catch
