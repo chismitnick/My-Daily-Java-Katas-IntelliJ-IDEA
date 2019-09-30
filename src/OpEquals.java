@@ -1,6 +1,7 @@
 
 // Demonstrate several assignment operators.
 //addition, multiplication,division and modulus assignment
+//Written By csamiselo@github.com 2019
 
 class OpEquals {
     public static void main(String args[]) {

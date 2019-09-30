@@ -14,6 +14,7 @@ public class SuperCatch {
             System.out.println("Exception" + e);
         } catch (java.lang.Exception e) {
             System.out.println("This code is never reached");
+
         }
     }
 

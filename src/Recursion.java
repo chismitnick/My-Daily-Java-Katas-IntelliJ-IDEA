@@ -4,6 +4,8 @@ Recursion is the process of defining something in terms of itself.
 This concept will be shown using the concept of factorials
 */
 
+//Written By csamiselo@github.com 2019
+
 class Factorial {
     // declare method to calculate factorial
     int computefactorial(int n) {

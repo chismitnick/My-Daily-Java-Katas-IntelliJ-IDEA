@@ -1,4 +1,5 @@
 // A simple java program to demonstrate displaying the seasons depending on the month.
+// Using a Switch Case statement
 class Switch {
     public static void main(String args[]) {
         int month = 4;

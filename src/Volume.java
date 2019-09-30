@@ -1,12 +1,12 @@
 
-
 //Calculates the Volume of a given Box based on predefined parameters
 /*
 A simple Java program to calculate the volume of a Box, by passing values its instance variables
 //This program has been modified to use the key words 'super', 'this' and 'extends'
 //and further demonstrates the OOP concept of inheritance
-
 */
+
+//Written By csamiselo@github.com 2019
 
 class Box1 {
     private double width;

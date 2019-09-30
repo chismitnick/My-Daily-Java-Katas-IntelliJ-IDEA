@@ -1,6 +1,8 @@
 
 // A simple program to demonstrate the second usage of the 'super' Keyword
 
+//Written By csamiselo@github.com 2019
+
 class Square {
 
     double side1;
@@ -13,6 +15,7 @@ class Square {
 
 class TestSquare extends Square {
     double side1, side2;
+
     public TestSquare(double s1, double s2) {
         // refers to the value of side 1 in the super class
         super.side1 = s1;
@@ -21,13 +24,13 @@ class TestSquare extends Square {
         side2 = s2;
     }
 
-    void showS2(){
+    void showS2() {
         System.out.println("The value of side2 from the super class is:" + "  " + super.side1);
-        System.out.println("The value of side2 from the sub   class is:" + "  " + side2 );
+        System.out.println("The value of side2 from the sub   class is:" + "  " + side2);
     }
 
     public static void main(String[] args) {
-        TestSquare T = new TestSquare( 10.67,23.46);
+        TestSquare T = new TestSquare(10.67, 23.46);
         T.showS2();
 
     }

@@ -2,7 +2,9 @@
 A simple program to print n numbers of an array using recursive method
 */
 
-//create a class and dclare a new array
+//create a class and declare a new array
+
+//Written By csamiselo@github.com 2019
 class RecursionTest {
     int values[];
 

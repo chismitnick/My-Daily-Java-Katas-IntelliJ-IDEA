@@ -4,6 +4,8 @@ Simple class demonstrates multilevel inheritance in Java.
  It begins with the declaration of a Super Class called Box
  and uses several constructors to define the box state
 */
+//Written By csamiselo@github.com 2019
+
 class Box {
 
     // The box has 3 main fields length,width and height

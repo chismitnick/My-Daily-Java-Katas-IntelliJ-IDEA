@@ -2,6 +2,7 @@
 A simple Java class to demonstrate the operation of
 the switch case statement.
  */
+//Written By csamiselo@github.com 2019
 class SampleSwitch {
     public static void main(String args[]) {
         for (int i = 0; i < 6; i++)

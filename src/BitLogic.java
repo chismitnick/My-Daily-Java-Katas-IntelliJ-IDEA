@@ -1,4 +1,7 @@
 // Demonstrate the bitwise logical operators.
+
+//Written By csamiselo@github.com 2019
+
 class BitLogic {
     public static void main(String args[]) {
         int a = 3; // 0 + 2 + 1 or 0011 in binary

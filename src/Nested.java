@@ -2,6 +2,8 @@
 //Simple program to demonstrate the concept of nesting classes 
 //with an inner and outer class.
 
+//Written By csamiselo@github.com 2019
+
 //The Outer Class 
 class OuterClass {
 

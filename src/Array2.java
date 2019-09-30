@@ -1,5 +1,6 @@
-/* A simple program to demonstrate how to obtain the sixe of array using te .length() property  */
+/* A simple program to demonstrate how to obtain the six of array using te .length() property  */
 
+//Written By csamiselo@github.com 2019
 
 class MakeArray {
     int first[] = new int[10];
@@ -7,9 +8,9 @@ class MakeArray {
     int third[] = {0, 9, 8, 6, 4, 2};
 
     void ShowArray() {
-        System.out.println("The lenth of the first array is:" + first.length);
-        System.out.println("The lenth of the second array is:" + second.length);
-        System.out.println("The lenth of the third array is:" + third.length);
+        System.out.println("The length of the first array is:" + first.length);
+        System.out.println("The length of the second array is:" + second.length);
+        System.out.println("The length of the third array is:" + third.length);
     }
 
 }

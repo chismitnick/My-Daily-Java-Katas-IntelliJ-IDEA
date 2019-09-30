@@ -2,6 +2,9 @@
  A simple program to demonstrate Access control specifiers
  private and public. And how the can be used by other classes
  */
+//Written By csamiselo@github.com 2019
+
+
  class Base {
     int a; // default access modifier for Java is public
     public int b;

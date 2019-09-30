@@ -3,6 +3,8 @@ A simple program to demonstrate the usage of conditional statements
 using if-else and elseif statements
 */
 
+//Written By csamiselo@github.com 2019
+
 public class Conditional {
     public static void main(String args[]) {
         int month = 4; // April

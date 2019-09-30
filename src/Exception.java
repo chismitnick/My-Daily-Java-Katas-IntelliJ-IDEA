@@ -1,5 +1,7 @@
 // A simple program to illustrate the concept of Exception Handling using
 // a try catch block
+
+//Written By csamiselo@github.com 2019
 class Exception extends Throwable {
 
     public static void main(String[] args) {

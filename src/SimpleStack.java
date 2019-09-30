@@ -1,9 +1,11 @@
 
 // A simple program to implement the working of a Stack data structure
-//intialize top of tack and implement push and pop methods 
+//initialize top of tack and implement push and pop methods
+
+//Written By csamiselo@github.com 2019
 
 
-// Class defining an interger stack that can hold 8 items
+// Class defining an integer stack that can hold 8 items
 class Stack {
 
     int[] stack = new int[10];
@@ -14,7 +16,7 @@ class Stack {
         topofstack = -1;
     }
 
-    // Define method for push operarion
+    // Define method for push operation
     void push(int item) {
 
         if (topofstack == 9)

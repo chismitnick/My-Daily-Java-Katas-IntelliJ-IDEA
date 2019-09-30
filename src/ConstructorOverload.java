@@ -1,3 +1,6 @@
+
+//Written By csamiselo@github.com 2019
+
 class Cube {
 
     double width;

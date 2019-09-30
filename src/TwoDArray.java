@@ -1,5 +1,7 @@
 
 //Displays the operation of a two dimensional array
+
+//Written By csamiselo@github.com 2019
 public class TwoDArray {
 
     public static void main(String[] args) {

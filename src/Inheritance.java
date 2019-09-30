@@ -2,6 +2,8 @@
 /*A simple java program to demonstrate the concept of inheritance
 between a parent and sub class.
 * */
+
+//Written By csamiselo@github.com 2019
 class Parent {
     int x;
     int y;

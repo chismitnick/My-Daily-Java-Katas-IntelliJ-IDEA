@@ -2,6 +2,8 @@
 //A simple program to demonstrate the use of multiple catch statements
 //this happens in situation where a single block of code raises multiple exceptions
 //each catch block is inspected to see if it matches the exception that is raised
+
+//Written By csamiselo@github.com 2019
 public class MultipleCatchBlock {
     public static void main(String[] args) {
         try {

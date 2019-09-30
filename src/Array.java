@@ -3,7 +3,7 @@
 to create an array an access 
 values using the index
 */
-
+//Written By csamiselo@github.com 2019
 public class Array {
     public static void main(String[] args) {
 

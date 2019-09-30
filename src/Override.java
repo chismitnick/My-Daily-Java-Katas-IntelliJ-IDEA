@@ -1,6 +1,8 @@
 
 // A simple program to demonstrate method overriding
 
+//Written By csamiselo@github.com 2019
+
 
 class Super {
 
