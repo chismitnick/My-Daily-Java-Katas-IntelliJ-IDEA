@@ -2,7 +2,10 @@
 /* A simple Java Program to demonstrate the operation of
 method overriding and abstract methods and classes
  */
-/**  Written By csamiselo@github.com 2019 */
+
+/**
+ * Written By csamiselo@github.com 2019
+ */
 
 
 //Declaration of an abstract class
