@@ -21,19 +21,19 @@ public class CustomException extends Exception {
 //inner class to check condition and throw exception
 class ExceptionHelper {
     static void execute(double a) throws Exception {
-        System.out.println("This is printed from within the method labelled as 'execute'");
+        System.out.println("Calling method execute(" + a + ")");;
         if (a > 10.0)
             throw new CustomException(a);
-        System.out.println("the exception is raised ");
+        System.out.println("Normal program execution completed ");
     }
 
     public static void main(String[] args) {
         try {
-            execute(3);
+            execute(7);
             execute(20); //raises an exception that is handled in the next block
 
         } catch (Exception e) {
-            System.out.println("Exception has been handled from the main method");
+            System.out.println("Exception raised has been handled from the main method" + ' ' +e);
         }
 
 
