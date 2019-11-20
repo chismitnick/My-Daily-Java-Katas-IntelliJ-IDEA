@@ -20,7 +20,7 @@ public class FinallySample {
     }
 
 
-    //A return fro inside a try block
+    //A return from inside a try block
     static void methodTwo(){
         try {
             System.out.println("This is a message from inside methodTwo");
@@ -30,7 +30,7 @@ public class FinallySample {
         }
     }
 
-    //Try block executed normally
+    //Try block executed normally and does not raise any exception
     static void methodThree(){
         try{
             System.out.println("This is a message from methodThree");
