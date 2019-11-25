@@ -47,7 +47,7 @@ class SimpleStack {
         for (int i = 1; i < 10; i++) stack1.push(i);
         for (int i = 10; i < 20; i++) stack2.push(i);
 
-//View numbers in the stack using the pop option
+//StudentView numbers in the stack using the pop option
         System.out.println("The numbers in the first stack are:");
         for (int i = 0; i < 10; i++)
             System.out.println(stack1.pop());
