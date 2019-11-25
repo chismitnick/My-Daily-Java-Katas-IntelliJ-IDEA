@@ -7,11 +7,11 @@
  */
 
 public class ChainedException {
-    static void demoproc(){
+    static void chainmeth(){
         //create an exception
         NullPointerException e = new NullPointerException("top layer");
 
-        //add a cause
+        //add a cause exception f
         e.initCause(new ArithmeticException("this is the cause"));
 
         throw e;
@@ -19,7 +19,7 @@ public class ChainedException {
 
     public static void main(String[] args) {
         try {
-                demoproc();
+                chainmeth();
         }catch(NullPointerException e) {
             //Show the top level exception
             System.out.println("Caught:" +e);
