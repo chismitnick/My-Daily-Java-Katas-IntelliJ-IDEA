@@ -11,12 +11,14 @@
  * multithreading system is built upon the Thread class, its methods, and its companion
  * interface, Runnable. Thread encapsulates a thread of execution.
  * When a Java program starts up, one thread begins running immediately. This is usually
- * called the main thread
+ * called the main thread ,you must obtain a reference to it by
+ * calling the method currentThread( ), which is a public static member of Thread.
  */
 
 public class SampleThread {
 
-    public static void main(String[] args) {   //Declaration nof new thread object
+    public static void main(String[] args) {
+        //Declaration nof new thread object to obtain reference to main thread using currentThread() method
         Thread t = Thread.currentThread();
 
         //Print the name of the current thread
@@ -30,9 +32,13 @@ public class SampleThread {
             //Performs a count down from 10 going downwards and takes an interval of 1second between each count
             for (int i = 10; i > 0; i--) {
                 System.out.println(i);
+
+                //specifies the delay period in milliseconds
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
+
+            //displays, in order: the name of the thread, its priority and the name of its group
             System.out.println("The main thread execution has been interrupted by:" + e);
 
         }
