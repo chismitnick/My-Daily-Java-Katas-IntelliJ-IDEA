@@ -7,22 +7,19 @@ package NewThread;
 public class ThreadExec{
 
     public static void main(String[] args) {
-        new NewThread(); //create a new thread
-
+        new NewThread(); // create a new thread
         try {
-            //display numbers in a count down fashion
-            for(int k =8;k>0;k--) {
-                System.out.println("This is the main thread:" +k);
-
-                //delay of 1000 milliseconds
+            for(int i = 5; i > 0; i--) {
+                System.out.println("Main Thread: " + i);
                 Thread.sleep(1000);
             }
-            } catch (InterruptedException e) {
-            System.out.println("Main thread has been interrupted");
+        } catch (InterruptedException e) {
+            System.out.println(" The main thread interrupted.");
         }
-        System.out.println("The main thread is now exiting");
+        System.out.println(" The main  thread is now exiting.");
     }
-
-
-
 }
+
+
+
+
