@@ -9,7 +9,9 @@ public class MulithreadRunner {
         new MultiThread("Third Thread");
 
         try {
-            // Make the main thread wait longer to give time to the other threads to complete their execution
+            // the call to
+            //sleep(10000) in main( ) causes the main thread to sleep for ten seconds and ensures
+            //that it will finish last.
            Thread.sleep(1000);
             }catch(InterruptedException e){
             System.out.println("Main thread has been interrupted");

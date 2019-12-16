@@ -12,7 +12,7 @@ public class MultiThread extends  Thread {
 
     public MultiThread(String nameofThread) {
         name = nameofThread;
-        t = new Thread(this,name);
+        t = new Thread(this, name);
         System.out.println("Thread:" +t);
         t.start();// start the thread execution
     }
@@ -21,7 +21,7 @@ public class MultiThread extends  Thread {
     public void run(){
         try{
         for(int x = 5;x>0;x--) {
-            System.out.println("Main Thread values:" +x);
+            System.out.println(name + ": " +x);
             Thread.sleep(500);
         }
         } catch(InterruptedException e) {
