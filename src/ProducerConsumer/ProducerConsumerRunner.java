@@ -1,8 +1,5 @@
-package NewThread;
+package ProducerConsumer;
 
-import ProducerConsumer.Consumer;
-import ProducerConsumer.Producer;
-import ProducerConsumer.Queue;
 
 //This class creates instances of the  Queue,Producer and Consumer
 public class ProducerConsumerRunner {
