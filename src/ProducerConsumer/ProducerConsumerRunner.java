@@ -8,6 +8,5 @@ public class ProducerConsumerRunner {
         new Producer(queue);
         new Consumer(queue);
 
-        System.out.println("Press ctrl-f2 to stop");
     }
 }

@@ -28,6 +28,7 @@ public class Queue {
     }
 
     synchronized void put(int a) {
+        while (setValue)
         try {
             wait();
         } catch (InterruptedException e) {
