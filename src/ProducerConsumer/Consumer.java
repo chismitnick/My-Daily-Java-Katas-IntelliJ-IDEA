@@ -9,6 +9,7 @@ public class Consumer implements  Runnable {
     }
     public  void run() {
         while (true) {
+            //Uses the get() method to get an item/object from the queue after receiving notify() from the Producer
             queue.get();
         }
 

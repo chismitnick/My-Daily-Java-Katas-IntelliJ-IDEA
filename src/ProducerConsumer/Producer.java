@@ -12,6 +12,7 @@ public class Producer implements Runnable {
         int i = 0;
 
         while(true) {
+            // use the put() method to place an ite/object in the queue
             q.put(i++);
         }
 
