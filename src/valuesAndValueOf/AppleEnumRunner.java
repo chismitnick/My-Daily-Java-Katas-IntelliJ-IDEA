@@ -14,7 +14,7 @@ public class AppleEnumRunner {
 
         System.out.println();
 
-        //using  valueof() method
+        //using  valueOf() method
         ap = Apple.valueOf("Mediterranean");
         System.out.println("ap contains:" + ap);
     }

@@ -16,6 +16,11 @@ enum Cars {
         price = p;
     }
 
+    //Overloaded Constructor called when no argument is passed
+    Cars(){
+        price = -1;
+    }
+
     public int getPrice() {
         return price;
     }
