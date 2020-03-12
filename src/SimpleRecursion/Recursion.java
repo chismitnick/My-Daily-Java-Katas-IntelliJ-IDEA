@@ -1,17 +1,13 @@
 package SimpleRecursion;
 
-public class Recursion {
-    public  static int factorial(int a){
-
-        if (a ==1) return 1;
-        return a * factorial(a -1);
-
+class Recursion {
+    public static int fact ( int n ) {
+        if ( n == 1 ) return 1;
+        return n * fact ( n-1 );
     }
-
     public static void main(String[] args) {
-        int getNumber = Integer.parseInt(args[0]);
-        int factorial = factorial(getNumber);
-        System.out.println(factorial);
+        int input = Integer.parseInt(args[0]);
+        long fact = fact ( input );
+        System.out.println(fact);
     }
-
 }
