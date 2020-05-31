@@ -16,6 +16,10 @@ public class BoundedtypeRunner {
         double s = doubObject.ComputeAverage();
         System.out.println("The average of the double array is :" + s);
 
+        Float floatNums[] = {92552f,82525525f,227272f,282809887f,332567119910f};
+        BoundedTypes<Float>floatObject = new BoundedTypes<>(floatNums);
+        double e = floatObject.ComputeAverage();
+        System.out.println("The average of the float array is : " +e);
 
     }
 
