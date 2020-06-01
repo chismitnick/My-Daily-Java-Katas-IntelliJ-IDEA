@@ -11,7 +11,7 @@ public class GenericClassRunner {
         runner = new GenericsClass<Integer>(20);
         runner.showType();
 
-        //get the value in runnerq
+        //get the value in runner
         int v = runner.getob();
         System.out.println("value:" + v);
 
@@ -24,7 +24,6 @@ public class GenericClassRunner {
         stringRunner.showType();
 
         //get the value for stringRunner
-
         String str = stringRunner.getob();
         System.out.println("value:" + str);
     }
