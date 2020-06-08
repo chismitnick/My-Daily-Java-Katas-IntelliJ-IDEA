@@ -20,7 +20,7 @@ public class MyTextEditor {
         //create a BufferedReader
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        // Array reading up to 100 lines
+        // Fundamentals.Array reading up to 100 lines
         String string[] = new String[100];
         System.out.println("Enter your text here :");
         System.out.println("Enter 'stop' to terminate the program");
