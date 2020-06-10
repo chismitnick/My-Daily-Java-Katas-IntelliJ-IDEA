@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ec6590-3ec1-4663-b09e-f05b8c4a3514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/FourDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/ThreeDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/TwoDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +65,19 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Generics.BoundedWildCards" />
+      <recent name="Fundamentals" />
+      <recent name="OOP" />
+      <recent name="ExceptionHandling" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Recursion">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Fundamentals.Array" />
       <module name="My-Daily-Java-Katas-IntelliJ-IDEA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,10 +117,27 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2688" y="259" width="374" height="558" key="#com.intellij.ide.util.MemberChooser" timestamp="1591782394886">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2688" y="259" width="374" height="558" key="#com.intellij.ide.util.MemberChooser/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591782394886" />
+    <state x="2613" y="285" width="524" height="441" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591727681770">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="276" width="524" height="441" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591579360107" />
+    <state x="2613" y="285" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591727681770" />
     <state x="801" y="390" width="308" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583400667526">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
     <state x="801" y="390" width="308" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1583400667526" />
+    <state x="2624" y="425" width="511" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591727683294">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2624" y="425" width="511" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591727683294" />
+    <state x="704" y="396" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1591579361584">
+      <screen x="0" y="27" width="1920" height="943" />
+    </state>
+    <state x="704" y="396" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591579361584" />
     <state width="914" height="243" key="GridCell.Tab.0.bottom" timestamp="1583862478462">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
@@ -124,15 +154,24 @@
       <screen x="0" y="27" width="1920" height="943" />
     </state>
     <state width="914" height="243" key="GridCell.Tab.0.right/0.27.1920.943@0.27.1920.943" timestamp="1583862478461" />
+    <state x="2626" y="165" width="540" height="788" key="RefactorJ.IntroduceParameterObject" timestamp="1591782429911">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2626" y="165" width="540" height="788" key="RefactorJ.IntroduceParameterObject/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591782429911" />
     <state x="449" y="125" width="1024" height="841" key="SettingsEditor" timestamp="1583756886817">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
     <state x="449" y="125" width="1024" height="841" key="SettingsEditor/0.27.1920.943@0.27.1920.943" timestamp="1583756886817" />
-    <state x="616" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1584007071405">
+    <state x="616" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1591726923922">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
+    <state x="616" y="326" key="com.intellij.ide.util.TipDialog/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591726923922" />
     <state x="616" y="326" key="com.intellij.ide.util.TipDialog/0.27.1920.943@0.27.1920.943" timestamp="1584007071405" />
     <state x="616" y="326" key="com.intellij.ide.util.TipDialog/0.27.3840.943@0.27.3840.943" timestamp="1583908160991" />
+    <state x="2544" y="248" key="run.anything.popup" timestamp="1591739016639">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="248" key="run.anything.popup/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591739016639" />
     <state x="143" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583862285050">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
