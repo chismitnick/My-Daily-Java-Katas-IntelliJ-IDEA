@@ -1,7 +1,7 @@
 package Generics.BoundedWildCards;
 
 //The class defines an array that holds coordinate objects
-public class Coordinates<T extends ThreeDimension> {
+public class Coordinates<T extends TwoDimension> {
     T[] coordinates;
 
     Coordinates(T[] o) {
