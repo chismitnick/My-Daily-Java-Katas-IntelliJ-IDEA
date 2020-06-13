@@ -1,0 +1,18 @@
+package Generics.GenericInterfaces;
+
+//csaimselo@guthub.com
+//implementation of a generic interface
+
+/* The generic interface offers two benefits. First, it can be implemented for different
+types of data. Second, it allows you to put constraints (that is, bounds) on the types of data
+for which the interface can be implemented*/
+
+//interface interface-name<type-param-list> { // ...
+ interface MinimumMaxim<T extends Comparable<T>> {
+    //Interface methods
+    //Remainder interface methods can be
+    // abstract and have no method body
+    T  maximum();
+    T minimum();
+
+}
