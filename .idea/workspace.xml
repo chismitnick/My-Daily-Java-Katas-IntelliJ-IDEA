@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ec6590-3ec1-4663-b09e-f05b8c4a3514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/FourDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/ThreeDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedWildCards/TwoDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericMethods/GenericMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +70,17 @@
   <component name="ProjectId" id="1YswBAvQ6HZ0mDNx60qDUNSEisJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -75,10 +91,23 @@
       <recent name="ExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
+  <component name="RunManager" selected="Application.GenericMethod">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fundamentals.Array" />
       <module name="My-Daily-Java-Katas-IntelliJ-IDEA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.GenericMethods.GenericMethod" />
+      <module name="My-Daily-Java-Katas-IntelliJ-IDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.GenericMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMethod" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Array" />
       </list>
@@ -116,7 +146,48 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/chismitnick/IdeaProjects/My-Daily-Java-Katas-IntelliJ-IDEA/src/Generics" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="828" y="364" width="254" height="265" key="#Notifications" timestamp="1591980082542">
+      <screen x="0" y="27" width="1920" height="943" />
+    </state>
+    <state x="828" y="364" width="254" height="265" key="#Notifications/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591980082542" />
     <state x="2688" y="259" width="374" height="558" key="#com.intellij.ide.util.MemberChooser" timestamp="1591782394886">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -158,9 +229,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2626" y="165" width="540" height="788" key="RefactorJ.IntroduceParameterObject/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591782429911" />
-    <state x="449" y="125" width="1024" height="841" key="SettingsEditor" timestamp="1583756886817">
+    <state x="2733" y="303" width="283" height="470" key="RollbackChangesDialog" timestamp="1591907103635">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2733" y="303" width="283" height="470" key="RollbackChangesDialog/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591907103635" />
+    <state x="449" y="125" width="1024" height="841" key="SettingsEditor" timestamp="1591980141273">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
+    <state x="449" y="125" key="SettingsEditor/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591980141273" />
     <state x="449" y="125" width="1024" height="841" key="SettingsEditor/0.27.1920.943@0.27.1920.943" timestamp="1583756886817" />
     <state x="616" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1591726923922">
       <screen x="0" y="27" width="1920" height="943" />
@@ -168,10 +244,10 @@
     <state x="616" y="326" key="com.intellij.ide.util.TipDialog/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591726923922" />
     <state x="616" y="326" key="com.intellij.ide.util.TipDialog/0.27.1920.943@0.27.1920.943" timestamp="1584007071405" />
     <state x="616" y="326" key="com.intellij.ide.util.TipDialog/0.27.3840.943@0.27.3840.943" timestamp="1583908160991" />
-    <state x="2544" y="248" key="run.anything.popup" timestamp="1591739016639">
+    <state x="2544" y="248" width="672" height="677" key="run.anything.popup" timestamp="1591992593646">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2544" y="248" key="run.anything.popup/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591739016639" />
+    <state x="2544" y="248" width="672" height="677" key="run.anything.popup/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591992593646" />
     <state x="143" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583862285050">
       <screen x="0" y="27" width="1920" height="943" />
     </state>
