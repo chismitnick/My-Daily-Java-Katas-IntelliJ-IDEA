@@ -10,8 +10,6 @@ public class GenIntRun {
 
         System.out.println("The maximum value in rhe integer array is:" + integerGenImplement.maximum());
         System.out.println("The minimum value in the integer array is :" + integerGenImplement.minimum());
-
-
         System.out.println("The maximum value in the character array is :" + characterGenImplement.maximum());
         System.out.println("the minimum value in the character array is :" + characterGenImplement.minimum());
     }
