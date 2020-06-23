@@ -1,6 +1,8 @@
 package DesignPatterns.AdapterPattern;
 import java.util.Random;
 
+
+//Adapter class converts the Turkey interface to be use by duck
 public class DuckAdapter implements Turkey {
 	Duck duck;
 	Random rand;

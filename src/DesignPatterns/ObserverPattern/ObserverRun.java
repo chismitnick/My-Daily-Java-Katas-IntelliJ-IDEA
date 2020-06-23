@@ -10,7 +10,6 @@ public class ObserverRun {
         System.out.println("Set the flag value = 76");
         subject1.setFlag(76);
 
-
         System.out.println("Set the flag value to = 200");
         subject1.setFlag(200);
         subject1.unregister(observer1);

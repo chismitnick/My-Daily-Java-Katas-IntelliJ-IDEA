@@ -4,6 +4,8 @@ package DesignPatterns.ObserverPattern;
 
 public interface SubjectInterface {
     void register(Observer observer);
+
     void unregister(Observer observer);
+
     void notifyObservers();
 }

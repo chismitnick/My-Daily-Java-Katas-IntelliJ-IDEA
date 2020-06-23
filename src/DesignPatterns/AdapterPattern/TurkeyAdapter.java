@@ -1,5 +1,6 @@
 package DesignPatterns.AdapterPattern;
 
+//Converts Turkey to a Duck object so that DuckTestDrive can create Turkey objects
 public class TurkeyAdapter implements Duck {
 	Turkey turkey;
  
