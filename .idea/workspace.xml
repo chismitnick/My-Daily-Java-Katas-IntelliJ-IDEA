@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ec6590-3ec1-4663-b09e-f05b8c4a3514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenSuperClass/GenExRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenSuperClass/GenSuper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/RawTypes/RawTypeExec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/RawTypes/RawTypeExec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/DuckAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/DuckAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/DuckTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/DuckTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Turkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Turkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/TurkeyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/TurkeyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/WildTurkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/WildTurkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/ObserverRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/ObserverRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/SubjectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/SubjectInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -92,6 +99,9 @@
       <recent name="Fundamentals" />
       <recent name="OOP" />
       <recent name="ExceptionHandling" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern" />
     </key>
   </component>
   <component name="RunManager" selected="Application.RawTypeExec">
@@ -236,25 +246,25 @@
       <screen x="0" y="27" width="1920" height="943" />
     </state>
     <state x="704" y="396" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1920.943/1920.0.1920.1080@0.27.1920.943" timestamp="1591579361584" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1592467341687">
+    <state width="1874" height="170" key="GridCell.Tab.0.bottom" timestamp="1592471780784">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592467341687" />
+    <state width="1874" height="170" key="GridCell.Tab.0.bottom/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592471780784" />
     <state width="914" height="243" key="GridCell.Tab.0.bottom/0.27.1920.943@0.27.1920.943" timestamp="1583862478462" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1592467341687">
+    <state width="1874" height="170" key="GridCell.Tab.0.center" timestamp="1592471780783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592467341687" />
+    <state width="1874" height="170" key="GridCell.Tab.0.center/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592471780783" />
     <state width="914" height="243" key="GridCell.Tab.0.center/0.27.1920.943@0.27.1920.943" timestamp="1583862478460" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1592467341687">
+    <state width="1874" height="170" key="GridCell.Tab.0.left" timestamp="1592471780783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592467341687" />
+    <state width="1874" height="170" key="GridCell.Tab.0.left/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592471780783" />
     <state width="914" height="243" key="GridCell.Tab.0.left/0.27.1920.943@0.27.1920.943" timestamp="1583862478454" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1592467341687">
+    <state width="1874" height="170" key="GridCell.Tab.0.right" timestamp="1592471780783">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592467341687" />
+    <state width="1874" height="170" key="GridCell.Tab.0.right/0.27.1920.943/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592471780783" />
     <state width="914" height="243" key="GridCell.Tab.0.right/0.27.1920.943@0.27.1920.943" timestamp="1583862478461" />
     <state x="2626" y="165" width="540" height="788" key="RefactorJ.IntroduceParameterObject" timestamp="1591782429911">
       <screen x="1920" y="0" width="1920" height="1080" />
